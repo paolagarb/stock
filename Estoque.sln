@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estoque", "Estoque\Estoque.csproj", "{42668C8E-623E-4FA3-B936-C0C31BA68E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Estoque", "Estoque\Estoque.csproj", "{42668C8E-623E-4FA3-B936-C0C31BA68E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiEstoque", "WebApiEstoque\WebApiEstoque.csproj", "{43F81321-ACF8-4F8A-8DB3-549ABEB9160C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{42668C8E-623E-4FA3-B936-C0C31BA68E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42668C8E-623E-4FA3-B936-C0C31BA68E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42668C8E-623E-4FA3-B936-C0C31BA68E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F81321-ACF8-4F8A-8DB3-549ABEB9160C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F81321-ACF8-4F8A-8DB3-549ABEB9160C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F81321-ACF8-4F8A-8DB3-549ABEB9160C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F81321-ACF8-4F8A-8DB3-549ABEB9160C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
