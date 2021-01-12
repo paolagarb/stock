@@ -2,11 +2,13 @@
 using Estoque.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Estoque.Controllers
 {
+    [Route("api/[controller]")]
     public class ProdutosController : Controller
     {
         private readonly EstoqueContext _context;
@@ -14,6 +16,12 @@ namespace Estoque.Controllers
         public ProdutosController(EstoqueContext context)
         {
             _context = context;
+        }
+        
+        [HttpGet]
+        public List<Produto> Get()
+        {
+            return _context.Produto.ToList();
         }
 
         // GET: Produtos
